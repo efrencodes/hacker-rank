@@ -1,17 +1,14 @@
 {
-  "name": "project-name",
+  "name": "hackerrank-exercises",
   "version": "1.0.0",
   "description": "TypeScript",
   "scripts": {
-    "dev": "nodemon src/003-a-very-big-sum/index.ts",
-    "build": "npm run lint && rimraf dist/ && tsc",
-    "start": "npm run build && node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsc",
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write '{*.ts,src/**/*.{tsx}}'"
   },
   "keywords": [],
-  "author": "Kevin Vogel",
+  "author": "efrencodes <efrencodes@gmail.com> (https://efrencodes.com)",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^17.0.35",
@@ -20,10 +17,7 @@
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "nodemon": "^2.0.16",
     "prettier": "^2.6.2",
-    "rimraf": "^3.0.2",
-    "ts-node": "^10.8.0",
     "typescript": "^4.6.4"
   }
 }
