@@ -1,15 +1,29 @@
 {
   "name": "hackerrank-exercises",
   "version": "1.0.0",
-  "description": "TypeScript",
+  "description": "Exercises in Typescript",
+  "main": "src/*",
   "scripts": {
-    "dev": "npx tsc",
+    "dev": "npx tsc --watch",
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write '{*.ts,src/**/*.{tsx}}'"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "javascript",
+    "algorithms",
+    "exercises"
+  ],
   "author": "efrencodes <efrencodes@gmail.com> (https://efrencodes.com)",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efrencodes/hacker-rank"
+  },
+  "bugs": {
+    "url": "https://github.com/efrencodes/hacker-rank/issues"
+  },
+  "homepage": "https://github.com/efrencodes/hacker-rank#readme",
   "devDependencies": {
     "@types/node": "^17.0.35",
     "@typescript-eslint/eslint-plugin": "^5.25.0",
